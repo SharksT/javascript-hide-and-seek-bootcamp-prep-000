@@ -21,3 +21,7 @@ function deepestChild() {
   return last;
 
 }
+
+function increaseRankBy() {
+  
+}
