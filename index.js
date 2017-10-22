@@ -16,7 +16,7 @@ function nestedTarget() {
 }
 
 function deepestChild() {
-  var c =  document.getElementById('grand-node').lastChild.nodeName;
+  var c =  document.getElementById('grand-node').lastChild.innerHTML;
   var a =  document.getElementById('grand-node').querySelectorAll(`${c}`);
 
   for (var i = 0; i < a.length; i++) {
