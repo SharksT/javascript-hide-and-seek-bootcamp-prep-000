@@ -16,5 +16,10 @@ function nestedTarget() {
 }
 
 function deepestChild() {
-  
+
+  var a =  document.getElementById('grand-node').querySelectorAll('div.target');
+
+  for (var i = 0; i < a.length; i++) {
+    return a[i];
+  }
 }
