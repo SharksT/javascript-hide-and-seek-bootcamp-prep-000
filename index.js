@@ -11,7 +11,7 @@ function nestedTarget() {
   var a =  document.getElementById('nested').querySelectorAll('div.target');
 
   for (var i = 0; i < a.length; i++) {
-    return a[i].innerHTML
+    return a[i];
   }
 
 }
