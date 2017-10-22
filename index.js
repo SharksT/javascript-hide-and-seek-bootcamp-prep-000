@@ -24,6 +24,6 @@ function deepestChild() {
 
 function increaseRankBy(n) {
 
-var a =  document.getElementsByClassName('ranked-list')
+var a =  document.getElementById('app').querySelectorAll('ul.ranked-list li')
 
 }
