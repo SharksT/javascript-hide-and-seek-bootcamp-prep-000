@@ -20,6 +20,6 @@ function deepestChild() {
   var a =  document.getElementById('grand-node').querySelectorAll('*');
 
   for (var i = 0; i < a.length; i++) {
-    return a[(length -1)];
+    return a[];
   }
 }
