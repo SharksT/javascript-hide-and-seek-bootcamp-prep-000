@@ -15,6 +15,6 @@ function nestedTarget() {
   }
 }
 
-function increaseRankBy() {
-  
+function increaseRankBy(n) {
+
 }
