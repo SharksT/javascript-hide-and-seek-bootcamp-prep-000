@@ -22,7 +22,7 @@ function deepestChild() {
 
 }
 
-function increaseRankBy() {
+function increaseRankBy(n) {
 
 var a =  document.getElementsByClassName('ranked-list')
 
