@@ -8,6 +8,10 @@ function getFirstSelector(selector) {
 
 function nestedTarget() {
 
-  document.getElementById('nested').querySelector('div.nested');
+  var a =  document.getElementById('nested').querySelector('div.nested');
+
+  for (var i = 0; i < a.length; i++) {
+    a[i]
+  }
 
 }
